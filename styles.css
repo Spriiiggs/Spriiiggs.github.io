@@ -189,22 +189,31 @@ p {
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.flex-container h3 {
+    /*background-color: rgb(0,0,0,0.5);*/
+    border-radius: 10px;
+    padding: 10px;
+    color:#bbc5aa;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .one {
-    background-image: url(images/road_paint_dark.jpg);
+    background-image: url(images/road_paint.PNG);
     background-color: black;
     background-size: cover;
 }
 
 .two {
-    background-image: url(images/navy_paint_dark.jpg);
+    background-image: url(images/navy_paint.png);
     background-color: black;
     background-size: cover;
 }
 
 .three {
-    background-image: url(images/arbor_paint_dark.jpg);
+    background-image: url(images/arbor_paint.png);
     background-color: black;
     background-size: cover;
 }
