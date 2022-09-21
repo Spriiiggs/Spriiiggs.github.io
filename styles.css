@@ -207,13 +207,13 @@ p {
 }
 
 .two {
-    background-image: url(images/navy_paint.png);
+    background-image: url(images/navy_paint.PNG);
     background-color: black;
     background-size: cover;
 }
 
 .three {
-    background-image: url(images/arbor_paint.png);
+    background-image: url(images/arbor_paint.PNG);
     background-color: black;
     background-size: cover;
 }
