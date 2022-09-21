@@ -162,24 +162,49 @@ p {
 
 .flex-container {
     display: flex;
+    gap: 10px;
 }
 
-/* this selector selects all divs inside of .flex-container */
 .flex-container div {
     display: flex;
-    background: #e6eed6;
+    flex-direction: column;
+    /*background: #e6eed6;*/
     border: 4px solid #bbc5aa;
-    color:#a72608;
-    justify-content: center;
+    color:#e6eed6;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
     height: 500px;
     flex: 1 1 0%;
-    margin: 10px;
-    margin-top: 100px;
+    margin-top: 80px;
+    padding: 10px;
 }
 
-/* only div.two is selected here */
-.flex-container .two {
-    flex: 1 1 0%;
+.flex-container p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: flex-end;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.one {
+    background-image: url(images/road_paint_dark.jpg);
+    background-color: black;
+    background-size: cover;
+}
+
+.two {
+    background-image: url(images/navy_paint_dark.jpg);
+    background-color: black;
+    background-size: cover;
+}
+
+.three {
+    background-image: url(images/arbor_paint_dark.jpg);
+    background-color: black;
+    background-size: cover;
 }
