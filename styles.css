@@ -182,7 +182,7 @@ p {
     color:#e6eed6;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     height: 500px;
     flex: 1 1 0%;
     margin-top: 80px;
@@ -208,6 +208,16 @@ p {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.flex-container a {
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+    color:#bbc5aa;
+}
+
+.flex-container a:hover {
+    color: #a72608;
+}
+
 .one {
     background-image: url(images/road_paint.PNG);
     background-color: black;
@@ -231,7 +241,7 @@ p {
     flex-direction: column;
     justify-content: center;
     background-color: #bbc5aa;
-    margin-top: 50px;
+    margin: 50px 0px;
     height: 350px;
     width: auto;
     text-align:center;
@@ -291,10 +301,6 @@ footer {
     border-radius: 10px;
     transition: background-color 0.3s ease-out;
 } 
-
-.contact_button a:link {
-     text-decoration: none;
- }
 
  .contact_button a:visited {
      text-decoration: none;
