@@ -139,3 +139,10 @@ body {
         text-align: right;
     }
 }
+
+footer {
+    text-align: center;
+    background-color: #e6eed6;
+    padding: 10px;
+    border-radius: 6px;
+}
